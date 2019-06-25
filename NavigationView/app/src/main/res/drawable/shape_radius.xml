@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    >
+
+
+    <corners android:radius="20dp"/>
+    <solid android:color="#ff00ff"/>
+    <!--<solid android:color="#ff0000"/>-->
+    <!--<gradient-->
+        <!--android:centerX="0.7"-->
+        <!--android:centerY="0.2"-->
+        <!--android:angle="315"-->
+        <!--android:type="linear"-->
+        <!--android:startColor="#ff0000"-->
+        <!--android:centerColor="#00ff00"-->
+        <!--android:endColor="#0000ff"/>-->
+
+    <!--<gradient-->
+        <!--android:centerX="0.2"-->
+        <!--android:centerY="0.8"-->
+        <!--android:type="radial"-->
+        <!--android:startColor="#ff0000"-->
+        <!--android:centerColor="#00ff00"-->
+        <!--android:endColor="#0000ff"-->
+        <!--android:gradientRadius="500"/>-->
+
+    <!--<gradient-->
+        <!--android:centerX="0.2"-->
+        <!--android:centerY="0.8"-->
+        <!--android:type="sweep"-->
+        <!--android:startColor="#ff0000"-->
+        <!--android:centerColor="#00ff00"-->
+        <!--android:endColor="#0000ff"/>-->
+
+    <!--<stroke-->
+        <!--android:width="5dp"-->
+        <!--android:color="#00ff00"-->
+        <!--android:dashWidth="80dp"-->
+        <!--android:dashGap="0dp" />-->
+
+    <!--&lt;!&ndash;<size&ndash;&gt;-->
+        <!--&lt;!&ndash;android:height="120dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:width="120dp"/>&ndash;&gt;-->
+    <!--<padding-->
+        <!--android:bottom="5dp"/>-->
+
+
+
+
+</shape>

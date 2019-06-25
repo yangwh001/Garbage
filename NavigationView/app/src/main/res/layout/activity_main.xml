@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Hello World!"
+        android:background="@drawable/shape_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:textColor="@color/bg_btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="样式一：点击改变字体颜色"
+        android:gravity="center"
+        />
+    <Button
+        android:background="@drawable/bg_btn_two"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="样式二：点击改变背景颜色"
+        android:gravity="center"
+        />
+
+    <Button
+        android:background="@drawable/bg_btn_two"
+        android:textColor="@color/bg_btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="样式三：改变背景色同时改变字体色"
+        android:gravity="center"
+        />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn"
+        android:background="@drawable/bg_check_three"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Checked：点击后背景状态长存"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:textColor="@color/bg_check_three"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="焦点样式：改变背景色同时改变字体色"
+        android:gravity="center"
+        />
+
+
+</LinearLayout>
